@@ -1,4 +1,4 @@
-const API_KEY = '7iA2suMgPC6mbf2YYjsIvWafb2gx2Edr'
+const API_KEY = ''
 let url = `https://api.giphy.com/v1/gifs/random?api_key=${API_KEY}&tag=&rating=g`
 let response = await fetch(url);
 
